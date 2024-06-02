@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "application",
+    "ws_socket"
+]
+
+[workspace.dependencies]
+tokio = { version = "1.38", features = ["full"] }
